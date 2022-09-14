@@ -1,5 +1,6 @@
 <script setup>
 import MainCard from "./components/MainCard.vue";
+import ProjectsCard from "./components/ProjectsCard.vue";
 </script>
 
 <template>
@@ -13,4 +14,6 @@ import MainCard from "./components/MainCard.vue";
         />
     </header>
     <MainCard />
+
+    <ProjectsCard />
 </template>
