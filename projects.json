@@ -1,15 +1,12 @@
 {
     "ProjectsArray": [
         {
-            "id" : 1,
-            "Title" : "Project One",
-            "About" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quis nulla, consequatur officiis veritatis fugiat
-            repellendus ipsa iure aliquam deserunt voluptatum tempore
-            optio odio animi error nisi ratione adipisci architecto? Ad?",
-            "Image" : "",
-            "Link1" : "",
-            "Link2" : ""
+            "id": 1,
+            "Title": "Project One",
+            "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Image": "",
+            "Link1": "",
+            "Link2": ""
         }
     ]
 }
