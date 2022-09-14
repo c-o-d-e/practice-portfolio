@@ -8,12 +8,16 @@
             </div>
             <div class="social-links">
                 <div class="link">
-                    <img src="../assets/Git.png" alt="" />
-                    <a href=""><h2>GitHub</h2></a>
+                    <a href="">
+                        <img src="../assets/Git.png" alt="" />
+                        <h2>GitHub</h2></a
+                    >
                 </div>
                 <div class="link">
-                    <img src="../assets/linkedin.png" alt="" />
-                    <a href=""><h2>LinkedIn</h2></a>
+                    <a href="">
+                        <img src="../assets/linkedin.png" alt="" />
+                        <h2>LinkedIn</h2></a
+                    >
                 </div>
             </div>
         </div>
@@ -42,7 +46,7 @@
                 <div class="projects-button">
                     <a href="">My Projects</a>
                 </div>
-                <div>
+                <div class="projects-button">
                     <a href="">My Resume</a>
                 </div>
             </div>
@@ -56,17 +60,26 @@ export default {};
 
 <style scoped>
 img {
-    height: 20px;
+    height: 2rem;
 }
 
 .main-container {
     display: flex;
     flex-direction: row;
+    background-color: rgba(214, 214, 214, 0.5);
+    border-radius: 20px;
 }
 
 .container-one {
     width: 40%;
     padding: 2.5%;
+    background-color: rgba(255, 192, 203, 0.552);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .profile img {
@@ -76,5 +89,45 @@ img {
 
 .container-two {
     width: 60%;
+    background-color: rgba(81, 62, 208, 0.2);
+    margin: 1rem;
+}
+
+.technology-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.logos {
+    margin: auto;
+}
+
+.logos img {
+    margin: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.projects-button {
+    background-color: #7c58ff;
+    padding: 0.2rem;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.projects-button a {
+    text-decoration: none;
+    color: white;
 }
 </style>
