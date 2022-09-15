@@ -8,14 +8,14 @@
             </div>
             <div class="social-links">
                 <div class="link">
-                    <a href="">
-                        <img src="../assets/Git.png" alt="" />
+                    <a href="#">
+                        <img src="../assets/Git.png" alt="Git" />
                         <h2>GitHub</h2></a
                     >
                 </div>
                 <div class="link">
-                    <a href="">
-                        <img src="../assets/linkedin.png" alt="" />
+                    <a href="#">
+                        <img src="../assets/linkedin.png" alt="Linkedin" />
                         <h2>LinkedIn</h2></a
                     >
                 </div>
@@ -43,12 +43,9 @@
                 </div>
             </div>
             <div class="button-container">
-                <div class="projects-button">
-                    <a href="">My Projects</a>
-                </div>
-                <div class="projects-button">
-                    <a href="">My Resume</a>
-                </div>
+                <a href="#" class="projects-button">My Projects</a>
+
+                <a href="#" class="projects-button">My Resume</a>
             </div>
         </div>
     </div>
