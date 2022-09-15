@@ -8,6 +8,14 @@
             <h2>{{ items.Title }}</h2>
             <img :src="items.Image" alt="image" />
             <p>{{ items.About }}</p>
+            <p>Tech Stack: {{ items.Stack }}</p>
+            <div class="button-container">
+                <a :href="items.Link1" target="_blank" class="projects-button"
+                    >Live</a
+                >
+
+                <a href="" class="projects-button">Code</a>
+            </div>
         </div>
     </div>
 </template>
@@ -34,7 +42,7 @@ export default {
 
 .projects {
     text-align: center;
-    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.4);
     border-radius: 20px;
     margin: 1rem;
 }
