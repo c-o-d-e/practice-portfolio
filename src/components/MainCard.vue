@@ -68,6 +68,8 @@ img {
     flex-direction: row;
     background-color: rgba(214, 214, 214, 0.5);
     border-radius: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .container-one {
