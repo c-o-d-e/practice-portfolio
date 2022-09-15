@@ -34,7 +34,7 @@ export default {
 
 .projects {
     text-align: center;
-    box-shadow: 1px 1px 1px 2px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
     border-radius: 20px;
     margin: 1rem;
 }
