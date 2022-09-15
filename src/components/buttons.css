@@ -1,0 +1,24 @@
+/* Buttons */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.projects-button {
+    background-color: #7c58ff;
+    padding: 0.2rem;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.projects-button:hover {
+    background-color: #907adc7c;
+    color: black;
+}
