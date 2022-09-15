@@ -23,4 +23,23 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    text-align: center;
+    box-shadow: 1px 1px 1px 2px;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.projects img {
+    height: 300px;
+}
+</style>
