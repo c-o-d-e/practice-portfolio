@@ -52,4 +52,14 @@ export default {
 .projects img {
     height: 300px;
 }
+
+@media screen and (max-width: 650px) {
+    .projects {
+        width: 350px;
+    }
+
+    .projects img {
+        height: 210px;
+    }
+}
 </style>
