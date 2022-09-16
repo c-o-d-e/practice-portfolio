@@ -63,7 +63,7 @@ img {
 .main-container {
     display: flex;
     flex-direction: row;
-    background-color: rgba(214, 214, 214, 0.5);
+    background-color: rgba(81, 62, 208, 0.2);
     border-radius: 20px;
     max-width: 1200px;
     margin: auto;
@@ -88,7 +88,6 @@ img {
 
 .container-two {
     width: 60%;
-    background-color: rgba(81, 62, 208, 0.2);
     margin: 1rem;
 }
 
@@ -109,24 +108,7 @@ img {
     margin: 0.5rem;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5rem;
-}
-
-.projects-button {
-    background-color: #7c58ff;
-    padding: 0.2rem;
-    margin: 5px;
-    width: 50%;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.projects-button a {
+.link a {
     text-decoration: none;
-    color: white;
 }
 </style>
