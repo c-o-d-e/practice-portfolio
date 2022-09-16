@@ -38,11 +38,13 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .projects {
     text-align: center;
-    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.4);
+    box-shadow: 0px 5px 5px 5px rgba(0, 255, 255, 0.3);
     border-radius: 20px;
     margin: 1rem;
 }
